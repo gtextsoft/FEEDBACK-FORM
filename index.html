@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BGC UK 2026 feedback</title>
+  <meta name="description" content="Feedback form for the London Business Growth Conference (BGC) UK 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600&family=Sora:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#feedback">Skip to the questions</a>
+  <div class="page">
+    <aside class="rail">
+      <p class="kicker">Stephen Akintayo International</p>
+      <p class="brand">BGC UK 2026</p>
+      <p class="rail-date">10–11 October · London</p>
+      <p class="rail-label" id="progress-label"><span id="progress-count">0</span> of 14 answered</p>
+      <div class="progress-track" id="progress" role="progressbar" aria-valuemin="0" aria-valuemax="14" aria-valuenow="0" aria-labelledby="progress-label">
+        <span id="progress-bar"></span>
+      </div>
+      <nav class="section-nav" aria-label="Question groups">
+        <a href="#experience" data-questions="q1,q2,q3">Experience</a>
+        <a href="#takeaways" data-questions="q4,q5,q6">Takeaways</a>
+        <a href="#room" data-questions="q7,q8,q9">The room</a>
+        <a href="#next" data-questions="q10,q11,q12,q13,q14">Next edition</a>
+      </nav>
+    </aside>
+
+    <main class="sheet" id="feedback">
+      <h1>How did BGC UK land for you?</h1>
+      <p class="lede">Fourteen questions about the London Business Growth Conference, 10–11 October 2026. Your answers go to Stephen Akintayo International and shape the next edition.</p>
+      <p class="note">Every question is required. The attachment is optional.</p>
+
+      <form id="bgc-feedback" action="https://collector.stephenakintayofoundation.org/v1/forms/UrXv69Km8OvDFH6Y/submit" method="POST" enctype="multipart/form-data">
+        <div id="form-error" class="form-error" data-collector-error role="alert" tabindex="-1" hidden></div>
+
+        <section id="experience" aria-labelledby="experience-title">
+          <h2 id="experience-title">Experience</h2>
+          <p class="deck">The two days as a whole.</p>
+
+          <fieldset class="question" id="q1" aria-describedby="q1-error">
+            <legend><span class="legend-line"><span class="q-index">1</span><span>How would you rate your overall experience at the London Business Growth Conference (BGC) UK 2026?</span></span></legend>
+            <div class="options options-row">
+              <label class="option"><input type="radio" name="overall_experience" value="Poor" required><span>Poor</span></label>
+              <label class="option"><input type="radio" name="overall_experience" value="Fair" required><span>Fair</span></label>
+              <label class="option"><input type="radio" name="overall_experience" value="Good" required><span>Good</span></label>
+              <label class="option"><input type="radio" name="overall_experience" value="Very good" required><span>Very good</span></label>
+              <label class="option"><input type="radio" name="overall_experience" value="Excellent" required><span>Excellent</span></label>
+            </div>
+            <p class="field-error" id="q1-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q2" aria-describedby="q2-error">
+            <legend><span class="legend-line"><span class="q-index">2</span><span>Did the event meet, exceed, or fall short of your expectations?</span></span></legend>
+            <div class="options">
+              <label class="option"><input type="radio" name="expectations" value="Exceeded" required><span>Exceeded my expectations</span></label>
+              <label class="option"><input type="radio" name="expectations" value="Met" required><span>Met my expectations</span></label>
+              <label class="option"><input type="radio" name="expectations" value="Fell short" required><span>Fell short of my expectations</span></label>
+            </div>
+            <p class="field-error" id="q2-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q3" aria-describedby="q3-error">
+            <legend><span class="legend-line"><span class="q-index">3</span><span>How likely are you to recommend BGC UK to a colleague or business partner?</span></span></legend>
+            <div class="scores">
+              <label class="score"><input type="radio" name="recommend_likelihood" value="0" required><span>0</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="1" required><span>1</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="2" required><span>2</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="3" required><span>3</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="4" required><span>4</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="5" required><span>5</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="6" required><span>6</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="7" required><span>7</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="8" required><span>8</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="9" required><span>9</span></label>
+              <label class="score"><input type="radio" name="recommend_likelihood" value="10" required><span>10</span></label>
+            </div>
+            <p class="scale-ends"><span>0 is not likely</span><span>10 is very likely</span></p>
+            <p class="field-error" id="q3-error" hidden></p>
+          </fieldset>
+        </section>
+
+        <section id="takeaways" aria-labelledby="takeaways-title">
+          <h2 id="takeaways-title">Takeaways</h2>
+          <p class="deck">What you are leaving with.</p>
+
+          <fieldset class="question" id="q4" aria-describedby="q4-error">
+            <legend><span class="legend-line"><span class="q-index">4</span><span>What was your single biggest takeaway or moment from the conference?</span></span></legend>
+            <textarea name="message" required maxlength="2000"></textarea>
+            <p class="count"><span data-count-for="message">0</span> / 2000</p>
+            <p class="field-error" id="q4-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q5" aria-describedby="q5-error">
+            <legend><span class="legend-line"><span class="q-index">5</span><span>How relevant and actionable was the business content presented to your current business stage?</span></span></legend>
+            <div class="options">
+              <label class="option"><input type="radio" name="content_relevance" value="Not relevant" required><span>Not relevant</span></label>
+              <label class="option"><input type="radio" name="content_relevance" value="Slightly relevant" required><span>Slightly relevant</span></label>
+              <label class="option"><input type="radio" name="content_relevance" value="Moderately useful" required><span>Moderately useful</span></label>
+              <label class="option"><input type="radio" name="content_relevance" value="Relevant and actionable" required><span>Relevant and actionable</span></label>
+              <label class="option"><input type="radio" name="content_relevance" value="Highly actionable" required><span>Highly actionable</span></label>
+            </div>
+            <p class="field-error" id="q5-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q6" aria-describedby="q6-error">
+            <legend><span class="legend-line"><span class="q-index">6</span><span>What did you enjoy most about the event (e.g., specific keynote speakers, panel sessions)?</span></span></legend>
+            <textarea name="enjoyed_most" required maxlength="2000"></textarea>
+            <p class="count"><span data-count-for="enjoyed_most">0</span> / 2000</p>
+            <p class="field-error" id="q6-error" hidden></p>
+          </fieldset>
+        </section>
+
+        <section id="room" aria-labelledby="room-title">
+          <h2 id="room-title">The room</h2>
+          <p class="deck">Networking, comfort, and the setup.</p>
+
+          <fieldset class="question" id="q7" aria-describedby="q7-error">
+            <legend><span class="legend-line"><span class="q-index">7</span><span>How satisfied were you with the networking opportunities available at the event?</span></span></legend>
+            <div class="options">
+              <label class="option"><input type="radio" name="networking_satisfaction" value="Very dissatisfied" required><span>Very dissatisfied</span></label>
+              <label class="option"><input type="radio" name="networking_satisfaction" value="Dissatisfied" required><span>Dissatisfied</span></label>
+              <label class="option"><input type="radio" name="networking_satisfaction" value="Neutral" required><span>Neutral</span></label>
+              <label class="option"><input type="radio" name="networking_satisfaction" value="Satisfied" required><span>Satisfied</span></label>
+              <label class="option"><input type="radio" name="networking_satisfaction" value="Very satisfied" required><span>Very satisfied</span></label>
+            </div>
+            <p class="field-error" id="q7-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q8" aria-describedby="q8-error">
+            <legend><span class="legend-line"><span class="q-index">8</span><span>Did you connect with potential clients, partners, or mentors that will impact your business?</span></span></legend>
+            <div class="options options-row">
+              <label class="option"><input type="radio" name="business_connections" value="Yes" required><span>Yes</span></label>
+              <label class="option"><input type="radio" name="business_connections" value="No" required><span>No</span></label>
+              <label class="option"><input type="radio" name="business_connections" value="Not yet" required><span>Not yet</span></label>
+            </div>
+            <p class="field-error" id="q8-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q9" aria-describedby="q9-error">
+            <legend><span class="legend-line"><span class="q-index">9</span><span>How would you rate the venue, seating comfort, audio-visual quality, and overall atmosphere?</span></span></legend>
+
+            <fieldset class="subquestion" data-name="venue">
+              <legend>Venue</legend>
+              <div class="options options-row">
+                <label class="option"><input type="radio" name="venue" value="Poor" required><span>Poor</span></label>
+                <label class="option"><input type="radio" name="venue" value="Fair" required><span>Fair</span></label>
+                <label class="option"><input type="radio" name="venue" value="Good" required><span>Good</span></label>
+                <label class="option"><input type="radio" name="venue" value="Very good" required><span>Very good</span></label>
+                <label class="option"><input type="radio" name="venue" value="Excellent" required><span>Excellent</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="subquestion" data-name="seating_comfort">
+              <legend>Seating comfort</legend>
+              <div class="options options-row">
+                <label class="option"><input type="radio" name="seating_comfort" value="Poor" required><span>Poor</span></label>
+                <label class="option"><input type="radio" name="seating_comfort" value="Fair" required><span>Fair</span></label>
+                <label class="option"><input type="radio" name="seating_comfort" value="Good" required><span>Good</span></label>
+                <label class="option"><input type="radio" name="seating_comfort" value="Very good" required><span>Very good</span></label>
+                <label class="option"><input type="radio" name="seating_comfort" value="Excellent" required><span>Excellent</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="subquestion" data-name="av_quality">
+              <legend>Audio-visual quality</legend>
+              <div class="options options-row">
+                <label class="option"><input type="radio" name="av_quality" value="Poor" required><span>Poor</span></label>
+                <label class="option"><input type="radio" name="av_quality" value="Fair" required><span>Fair</span></label>
+                <label class="option"><input type="radio" name="av_quality" value="Good" required><span>Good</span></label>
+                <label class="option"><input type="radio" name="av_quality" value="Very good" required><span>Very good</span></label>
+                <label class="option"><input type="radio" name="av_quality" value="Excellent" required><span>Excellent</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="subquestion" data-name="atmosphere">
+              <legend>Overall atmosphere</legend>
+              <div class="options options-row">
+                <label class="option"><input type="radio" name="atmosphere" value="Poor" required><span>Poor</span></label>
+                <label class="option"><input type="radio" name="atmosphere" value="Fair" required><span>Fair</span></label>
+                <label class="option"><input type="radio" name="atmosphere" value="Good" required><span>Good</span></label>
+                <label class="option"><input type="radio" name="atmosphere" value="Very good" required><span>Very good</span></label>
+                <label class="option"><input type="radio" name="atmosphere" value="Excellent" required><span>Excellent</span></label>
+              </div>
+            </fieldset>
+            <p class="field-error" id="q9-error" hidden></p>
+          </fieldset>
+        </section>
+
+        <section id="next" aria-labelledby="next-title">
+          <h2 id="next-title">Next edition</h2>
+          <p class="deck">Registration, pace, and what should change.</p>
+
+          <fieldset class="question" id="q10" aria-describedby="q10-error">
+            <legend><span class="legend-line"><span class="q-index">10</span><span>How seamless was your registration process and pre-event communication?</span></span></legend>
+            <div class="options">
+              <label class="option"><input type="radio" name="registration_experience" value="Very difficult" required><span>Very difficult</span></label>
+              <label class="option"><input type="radio" name="registration_experience" value="Difficult" required><span>Difficult</span></label>
+              <label class="option"><input type="radio" name="registration_experience" value="Adequate" required><span>Adequate</span></label>
+              <label class="option"><input type="radio" name="registration_experience" value="Smooth" required><span>Smooth</span></label>
+              <label class="option"><input type="radio" name="registration_experience" value="Seamless" required><span>Seamless</span></label>
+            </div>
+            <p class="field-error" id="q10-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q11" aria-describedby="q11-error">
+            <legend><span class="legend-line"><span class="q-index">11</span><span>How did you find the pacing of the event (e.g., length of sessions, breaks, overall schedule)?</span></span></legend>
+            <div class="options">
+              <label class="option"><input type="radio" name="event_pacing" value="Too rushed" required><span>Too rushed</span></label>
+              <label class="option"><input type="radio" name="event_pacing" value="A little rushed" required><span>A little rushed</span></label>
+              <label class="option"><input type="radio" name="event_pacing" value="Just right" required><span>Just right</span></label>
+              <label class="option"><input type="radio" name="event_pacing" value="A little slow" required><span>A little slow</span></label>
+              <label class="option"><input type="radio" name="event_pacing" value="Too slow" required><span>Too slow</span></label>
+            </div>
+            <p class="field-error" id="q11-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q12" aria-describedby="q12-error">
+            <legend><span class="legend-line"><span class="q-index">12</span><span>What specific areas do you think we can improve on for future editions?</span></span></legend>
+            <textarea name="improvements" required maxlength="2000"></textarea>
+            <p class="count"><span data-count-for="improvements">0</span> / 2000</p>
+            <p class="field-error" id="q12-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q13" aria-describedby="q13-error">
+            <legend><span class="legend-line"><span class="q-index">13</span><span>What topics, industries, or specific speakers would you love to see featured at the next BGC UK?</span></span></legend>
+            <textarea name="future_topics" required maxlength="2000"></textarea>
+            <p class="count"><span data-count-for="future_topics">0</span> / 2000</p>
+            <p class="field-error" id="q13-error" hidden></p>
+          </fieldset>
+
+          <fieldset class="question" id="q14" aria-describedby="q14-error">
+            <legend><span class="legend-line"><span class="q-index">14</span><span>Would you be interested in attending BGC UK or other Stephen Akintayo International events in the future?</span></span></legend>
+            <div class="options options-row">
+              <label class="option"><input type="radio" name="future_attendance" value="Yes" required><span>Yes</span></label>
+              <label class="option"><input type="radio" name="future_attendance" value="No" required><span>No</span></label>
+              <label class="option"><input type="radio" name="future_attendance" value="Maybe" required><span>Maybe</span></label>
+            </div>
+            <p class="field-error" id="q14-error" hidden></p>
+          </fieldset>
+        </section>
+
+        <div class="send-block">
+          <h2>Send your answers</h2>
+          <p class="deck">Use the email from your registration so the team can match this response.</p>
+
+          <div class="field" id="email-field">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required autocomplete="email" inputmode="email" spellcheck="false">
+            <p class="field-error" id="email-field-error" hidden></p>
+          </div>
+
+          <div class="field" id="attachment-field">
+            <label for="attachment">Attachment <span class="optional">Optional</span></label>
+            <input id="attachment" type="file" name="attachment" accept=".jpg,.jpeg,.png,.gif,.webp,.pdf,.txt,.csv,.docx,image/jpeg,image/png,image/gif,image/webp,application/pdf,text/plain,text/csv,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+            <p class="hint">JPG, JPEG, PNG, GIF, WebP, PDF, TXT, CSV, or DOCX. Leave this empty if you have nothing to attach.</p>
+            <noscript><p class="hint">Attaching a file needs JavaScript. You can still send the form without one.</p></noscript>
+            <p class="field-error" id="attachment-field-error" hidden></p>
+          </div>
+
+          <div aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden;">
+            <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          </div>
+
+          <button type="submit">Send feedback</button>
+          <p class="fine">After this sends, you’ll land on a confirmation page.</p>
+        </div>
+      </form>
+      <script src="https://collector.stephenakintayofoundation.org/v1/forms/UrXv69Km8OvDFH6Y/embed.js" defer></script>
+      <p class="colophon">London Business Growth Conference UK 2026</p>
+    </main>
+  </div>
+</body>
+</html>
